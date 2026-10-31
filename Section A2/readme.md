@@ -107,11 +107,16 @@ Create a `.env` file in the project root.
 Example configuration:
 
 ```env
-BASE_URL=https://www.saucedemo.com
-STANDARD_USERNAME=standard_user
-LOCKED_USERNAME=locked_out_user
-INVALID_USERNAME=invalid_user
-PASSWORD=secret_sauce
+# Application Configuration
+BASE_URL=YOUR_BASE_URL
+
+# Test User Credentials
+STANDARD_USERNAME=YOUR_STANDARD_USERNAME
+LOCKED_USERNAME=YOUR_LOCKED_USERNAME
+INVALID_USERNAME=YOUR_INVALID_USERNAME
+
+# Common Password
+PASSWORD=YOUR_PASSWORD
 ```
 
 The application URL and test credentials are loaded through environment variables instead of being hardcoded in the test cases.
