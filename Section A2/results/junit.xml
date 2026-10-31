@@ -1,0 +1,53 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="21.422565">
+<testsuite name="checkout.spec.js" timestamp="2026-10-31T10:57:19.558Z" hostname="" tests="4" failures="0" skipped="0" time="19.555" errors="0">
+<testcase name="TC17 - Complete checkout successfully" classname="checkout.spec.js" time="5.966">
+<system-out>
+<![CDATA[Screenshot captured: Step 1 - Login Page
+Screenshot captured: Step 2 - Successful Login
+Screenshot captured: Step 3 - Products Added
+Screenshot captured: Step 4 - Shopping Cart
+Screenshot captured: Step 5 - Checkout Information
+Screenshot captured: Step 6 - Checkout Overview
+Screenshot captured: Step 7 - Price Verification
+Screenshot captured: Step 8 - Order Completed
+]]>
+</system-out>
+</testcase>
+<testcase name="TC18 - Verify error when First Name is missing" classname="checkout.spec.js" time="5.914">
+<system-out>
+<![CDATA[Screenshot captured: Step 1 - Login Page
+Screenshot captured: Step 2 - Successful Login
+Screenshot captured: Step 3 - Product Added
+Screenshot captured: Step 4 - Shopping Cart
+Screenshot captured: Step 5 - Checkout Information
+Screenshot captured: Step 6 - Checkout Form Filled
+Screenshot captured: Step 7 - First Name Validation Error
+]]>
+</system-out>
+</testcase>
+<testcase name="TC18 - Verify error when Last Name is missing" classname="checkout.spec.js" time="4.219">
+<system-out>
+<![CDATA[Screenshot captured: Step 1 - Login Page
+Screenshot captured: Step 2 - Successful Login
+Screenshot captured: Step 3 - Product Added
+Screenshot captured: Step 4 - Shopping Cart
+Screenshot captured: Step 5 - Checkout Information
+Screenshot captured: Step 6 - Checkout Form Filled
+Screenshot captured: Step 7 - Last Name Validation Error
+]]>
+</system-out>
+</testcase>
+<testcase name="TC18 - Verify error when Postal Code is missing" classname="checkout.spec.js" time="3.456">
+<system-out>
+<![CDATA[Screenshot captured: Step 1 - Login Page
+Screenshot captured: Step 2 - Successful Login
+Screenshot captured: Step 3 - Product Added
+Screenshot captured: Step 4 - Shopping Cart
+Screenshot captured: Step 5 - Checkout Information
+Screenshot captured: Step 6 - Checkout Form Filled
+Screenshot captured: Step 7 - Postal Code Validation Error
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
